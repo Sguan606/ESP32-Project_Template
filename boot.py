@@ -6,7 +6,7 @@
 
 from machine import UART
 import os
-uart0 = UART(0, 115200)
+uart1 = UART(1, 115200)
 os.dupterm(uart)
 
 print("Hello my Jsut!")
