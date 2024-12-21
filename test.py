@@ -8,6 +8,7 @@ import network
 import umqtt
 import time
 
+
 # 初始化GPIO_Pin_9
 GPIO_Pin_9 = Pin(9,Pin.OUT,None)
 
